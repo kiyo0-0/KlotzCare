@@ -1,0 +1,265 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(assets/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: 'inter';
+    src: url(assets/Inter_24pt-Medium.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-image: url(assets/background.png);
+    background-size: cover;
+}
+
+#nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    padding-top: 32px;
+    justify-content: center;
+}
+#logo{
+    position: fixed;
+    display: flex;
+    font-family: 'poppins';
+    font-size: 0.6em;
+    color: azure;
+    left: 6%;
+    letter-spacing: 0.1em;
+    column-gap: 4px;
+}
+#logo img{
+    height: 24px;
+}
+#klotz{
+    color: black;
+}
+
+#menu{
+    position: fixed;
+    display: flex;
+    list-style: none;
+    column-gap: 40px;
+    font-family: 'inter';
+}
+#menu li i{
+    padding-left: 5px;
+}
+
+#nav button{
+    position: fixed;
+    display: flex;
+    width: 200px;
+    height: 40px;
+    left: 80%;
+    top: 3%;
+    font-family: 'inter';
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+    border-radius: 10px;
+    background: transparent;
+}
+#nav button img{
+    height: 20px;
+}
+
+#hero{
+    width: 100%;
+    height: 100vh;
+}
+#hero h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 5em;
+    font-weight: 500;
+    letter-spacing: -0.07em;
+}
+#one{
+    position: fixed;
+    top: 40%;
+    left: 17%;
+    z-index: 3;
+}
+#two{
+    position: fixed;
+    top: 48%;
+    left: 17%;
+
+}
+#three{
+    position: fixed;
+    top: 48%;
+    left: 36.5%;
+
+}
+#four{
+    position: fixed;
+    top: 55%;
+    left: 17%;
+}
+#five{
+    position: fixed;
+    top: 62%;
+    left: 17%;
+    z-index: 3;
+}
+#model{
+    position: fixed;
+    left: 12%;
+    height: 700px;
+}
+#sleeve{
+    position: fixed;
+    left: 30%;
+    top: 23%;
+    z-index: 2;
+}
+#stars{
+    position: fixed;
+    top: 38%;
+    left: 17%;
+    column-gap: 10px;
+}
+#card{
+    height: 275px;
+    width: 200px;
+    position: fixed;
+    background: #dcd8d5d0;
+    right: 105px;
+    top: 50%;
+    border-radius: 16px;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+}
+#card img{
+    height: 100px;
+    width: 120px;
+    margin-top: 20px;
+
+}
+#card h1{
+    color: black;
+    font-size: 3em;
+    font-family: 'inter';
+}
+#card p{
+    font-size: 0.8 em;
+    font-family: 'poppins';
+    margin-top: 8px;
+}
+#bottom-bar{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    background: #1d2a2e;
+    bottom: 0;
+    align-items: center;
+}
+#bottom-bar .person{
+    height: 54px;
+    width: 54px;
+    display: flex;
+    background-color: #1d2a2e;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: center;
+}
+#person1{
+    position: fixed;
+    left: 100px
+}
+#person2{
+    position: fixed;
+    left: 148px
+}
+#person3{
+    position: fixed;
+    left: 196px
+}
+#person4{
+    position: fixed;
+    left: 250px
+}
+#person5{
+    position: fixed;
+    left: 312px
+}
+#bottom-bar img{
+    height: 50px;
+    width: 50px;
+    border-radius: 16px;
+}
+#bottom-bar h2{
+    position: fixed;
+    color: #ffffff;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    left: 372px;
+    letter-spacing: -0.1em;
+}
+#bottom-bar button{
+    position: fixed;
+    display: flex;
+    width: 200px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'inter';
+    font-size: 1em;
+    border-radius: 10px;
+    right: 100px;
+}
+#bottom-bar button p{
+    margin-left:10px;
+    transform: rotate(-45deg);
+}
+
+#content{
+
+    text-align: center;
+    z-index: 10;
+}
+#first{
+    position: fixed;
+    display: flex;
+    width: 225px;
+    font-size:0.8em;
+    font-family:'inter';
+    align-items: center;
+    justify-content: center;
+    top: 20%;
+    left: 30%;
+}
+#second{
+    position: fixed;
+    display: flex;
+    width: 225px;
+    font-size:0.8em;
+    font-family:'inter';
+    align-items: center;
+    justify-content: center;
+    top: 30%;
+    left: 55%;
+}
+#content img{
+    height: 50px;
+    width: 25px;
+    
+}
